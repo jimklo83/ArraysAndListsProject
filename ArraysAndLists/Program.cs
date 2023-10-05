@@ -24,7 +24,6 @@ namespace ArraysAndLists
              * Then add those numbers to either the evens List
              * or the odds List
              */
-            evens.Remove(10);
             foreach (int number in array)
             {
                 if (number % 2 == 0)
