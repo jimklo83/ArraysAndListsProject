@@ -62,14 +62,7 @@ namespace ArraysAndLists
 
             foreach (int odd in odds) 
             {
-                if (odd == 9)
-                {
-                    Console.WriteLine($"All multiples of {odd}!");
-                }
-                else 
-                {
-                    Console.WriteLine($"{odd}...");
-                }
+                Console.WriteLine($"{odd}...");
             }
         }
     }
